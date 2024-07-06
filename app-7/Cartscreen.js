@@ -9,7 +9,7 @@ export default function Cartscreen() {
     'vogue-sans': require('./assets/fonts/vogue-sans-medium.ttf'),
   });
 
-  const navigation = useNavigation(); // Initialize navigation hook
+  const navigation = useNavigation(); 
 
   if (!fontsLoaded) {
     return <AppLoading />;
